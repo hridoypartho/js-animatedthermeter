@@ -4,5 +4,12 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    text-align: center;
+    &__content{
+        h2{
+            color: whitesmoke;
+            font-size: 132px !important;
+            font-weight: 700;
+            letter-spacing: 4px;
+        }
+    }
 }
